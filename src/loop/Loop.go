@@ -22,4 +22,8 @@ func Loop() {
 		fmt.Println(i)
 		i = i + 1
 	}
+
+	for j := 0; j < 5; j = j + 1 {
+		fmt.Println(j)
+	}
 }

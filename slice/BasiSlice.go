@@ -51,6 +51,10 @@ func BasicSlice() {
 	passingAsSlice(usingMakeSlice)
 	fmt.Println("Printing after calling the Function :  ", usingMakeSlice)
 
+	for i, v := range usingMakeSlice {
+		fmt.Println("index : ", i, " Value : ", v)
+	}
+
 }
 
 func passingAsSlice(sl []int) {

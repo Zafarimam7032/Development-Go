@@ -16,9 +16,15 @@ func main() {
 	obj := p.dis()
 	fmt.Println("After : ", obj)
 	fmt.Println("after : ", p)
+	display(p)
+	fmt.Println("after : ", p)
 
 }
 
 func (p Person) Show() {
 	fmt.Println("Person ", p)
+}
+
+func display(emp Person) {
+	emp.name = "james"
 }

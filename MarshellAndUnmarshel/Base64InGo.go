@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	setences := "this is go programing"
+	sentences := "this is go programing"
 
-	toString := base64.StdEncoding.EncodeToString([]byte(setences))
+	toString := base64.StdEncoding.EncodeToString([]byte(sentences))
 
 	fmt.Println(toString) //dGhpcyBpcyBnbyBwcm9ncmFtaW5n
 
